@@ -1,0 +1,46 @@
+
+.compras{
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.compras h1{
+    font-size: 3rem;
+}
+.container-compras{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.item-compras{
+    padding: 2rem;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.item-compras:hover{
+    border: 2px solid black;
+    border-radius: 22px;
+}
+.item-compras img{
+    width: 260px;
+    height: 200px;
+}
+@media (max-width:380px){
+    .container-compras{
+        gap: 1rem;
+    }
+    .compras h1{
+        font-size: 2rem;
+        width: 280px;
+        text-align: center;
+    }
+}

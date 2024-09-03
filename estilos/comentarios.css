@@ -1,0 +1,24 @@
+
+.container-comentario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 2rem 0;
+}
+.item-comentario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-comentario span{
+    font-size: 2rem;
+    color: rgb(68, 112, 68);
+}
+.item-comentario p{
+    width: 100px;
+    text-align: center;
+    opacity: 80%;
+}
